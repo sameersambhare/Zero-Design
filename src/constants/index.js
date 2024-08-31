@@ -29,7 +29,22 @@ export const header2 = {
   line1: "WE MAKE WORK",
   line2: "THAT WORKS.",
 };
-import { P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14 } from "../utils/index";
+import {
+  P1,
+  P2,
+  P3,
+  P4,
+  P5,
+  P6,
+  P7,
+  P8,
+  P9,
+  P10,
+  P11,
+  P12,
+  P13,
+  P14,
+} from "../utils/index";
 export const projectsList = [
   {
     text: "GOODLES - MAC'S BACK BABY",
@@ -88,26 +103,64 @@ export const projectsList = [
     imeg: P14,
   },
 ];
-import { Brand } from "../utils/index";
-const categoriesList = [
+import { Brand, Community, Web, Content, Growth } from "../utils/index";
+export const categoriesList = [
   {
-      text: "BRAND",
-      vid: Brand,
+    text: "BRAND",
+    vid: Brand,
+    scale: "1.75",
   },
   {
-      text: "Brand",
-      vid: Brand,
+    text: "WEB",
+    imeg: Web,
   },
   {
-      text: "Brand",
-      vid: Brand,
+    text: "CONTENT",
+    vid: Content,
+    scale: "4",
   },
   {
-      text: "Brand",
-      vid: Brand,
+    text: "COMMUNITY",
+    imeg: Community,
   },
   {
-      text: "Brand",
-      vid: Brand,
+    text: "GROWTH",
+    vid: Growth,
+  },
+];
+
+export const header3 = {
+  line1: "AT THE INTER­SECTIONS",
+  line2: "THAT MATTER.",
+};
+
+export const header4 = {
+  line1: "WE PARTNER WITH",
+  line2: "BRANDS WE BELIEVE IN.",
+};
+export const header5={
+  line1:"AND HAVE FUN DOING",
+  line2:"IT."
+}
+export const header6={
+  line1:"CONNECT WITH A ZERO."
+}
+
+export const connectList = [
+  {
+      title: "for new buisness enquiries",
+      id: "some1@zero.nyc"
+  },
+  {
+      title: "for job opps",
+      id: "carriers@zero.nyc"
+  },
+  {
+      title: "instagram",
+      id: "zero@studios"
+  },
+  {
+      title: "for pr & collabs",
+      id: "punk.peace@zero.nyc"
   },
 ]

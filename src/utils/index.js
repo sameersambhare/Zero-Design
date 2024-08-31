@@ -28,5 +28,14 @@ export const P12 = p12;
 export const P13 = p13;
 export const P14 = p14;
 
-import brand from '../assets/brand.mp4'
-export const Brand=brand;
+import brand from "../assets/brand.mp4";
+import content from "../assets/content.mp4";
+import growth from "../assets/growth.mp4";
+import community from "../assets/community.png";
+import web from "../assets/web.png";
+
+export const Brand = brand;
+export const Content = content;
+export const Growth = growth;
+export const Community = community;
+export const Web = web;
